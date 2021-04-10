@@ -1,0 +1,171 @@
+
+/*The start of the navBar*/
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+    border: 1px solid;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(255, 255, 255);
+    background-color:#039d8f;
+    border: 1px solid;
+    border-radius: 20px;
+    margin:10px;
+}
+.navbar .row{margin: 2px;}
+.navbar .row span{color: rgb(5, 224, 23); font-weight: bold;}
+/*The end of the navBar*/
+
+/*The start of Login form*/
+form{
+    padding: 30px;
+    width: 700px;
+    background-color: #039d90b7;
+    position: relative;
+    border-radius: 15px;
+    left: 350px;
+    top: 70px;
+    display: none;
+}
+form *{
+    margin: 10px;
+}
+form h5{
+    text-align: center;
+    color: white;
+    margin: 2px;
+}
+form input{
+
+    text-align: center;
+    border-radius: 25px;
+}
+.h{top:-500px}
+
+form button{
+    margin-left: 250px;
+    position: relative;
+    background-color: white;
+    color: white;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 20px;
+    background-color: #99aea7;
+}
+.btn-group-lg>.btn, .btn-lg:hover{
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 20px;
+    background-color:  rgb(5, 224, 23);
+}
+.btn-group-lg>.btn, .btn-lg:focus{
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 20px;
+    background-color: rgb(5, 224, 23);
+}
+
+h6 a{
+    font-size: 1rem;
+    color: aliceblue;
+}
+h6 a:hover{
+    font-size: 1rem;
+    color: aliceblue;
+}
+
+h6 a:focus{
+    font-size: 1rem;
+    color: aliceblue;
+}
+
+form .footer{
+
+    border-top: 2px solid black;
+    text-align: center;
+}
+
+#signin-emil,#signin-passwd,#signin-city{display:none;}
+/*The end of Login form*/
+
+/*the start of home page*/
+.carousel-inner img{height: 800px;}
+.home .whoAreWe,.ourGoal,.ourVertion{
+
+width: 100%;
+padding: 80px;
+text-align: center;
+background-color:#039d8f;
+
+}
+.home .whoAreWe,.ourGoal,.ourVertion *{color: white;}
+.home .whoAreWe,.ourGoal,.ourVertion h2,h5{padding: 30px;}
+.img_2030{
+
+    background-image:url("image/2030.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 300px;
+}
+
+footer {
+position: relative;
+bottom: 0;
+text-align: center;
+background-color: rgb(255, 254, 254);
+padding: 30px;
+}
+/*the end of home page*/
+
+/*the start of the listPage*/
+.dropdown-item:hover{
+    background-color:#039d8f;
+    color: white;
+}
+.container .row .card{
+    
+    margin: 20px;
+    border-radius: 10px;
+}
+.container .row .card *{
+
+    text-align: center;
+}
+#order{
+    color: rgba(0,0,0,.5);
+    background-color: white;
+    border: 1px solid;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    width: 100px;
+}
+#order:hover{
+    color: white;
+    background-color:#039d8f;
+    border: 1px solid;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    width: 100px;
+}
+
+#card-data{
+
+
+    display: none;
+    background-color:#039d8f;
+    color: white;
+    text-align: center;
+    height: 580px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+#card-data *{
+    margin: 10px;
+}
